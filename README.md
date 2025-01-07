@@ -131,7 +131,7 @@ Now, that we have that out of the way here are the changes that you need to appl
 
 1. Log into Dev Spaces as a non-admin user and create a new workspace from this git repo:
 
-   `https://github.com/cgruver/ocp-4-17-nested-container-tech-preview.git`
+   `https://github.com/cgruver/ocp-4-18-nested-container-tech-preview.git`
 
    __Note:__ The container image for this workspace is built from the files in the `./workspace-image` folder of this project.
 
