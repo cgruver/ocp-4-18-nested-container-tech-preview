@@ -1,5 +1,5 @@
 # ocp-4-18-nested-container-tech-preview
-Update of ocp-4-17-nested-container-tech-preview to reflect changes to OCP 4.18
+Update of [ocp-4-17-nested-container-tech-preview](https://github.com/cgruver/ocp-4-17-nested-container-tech-preview) to reflect changes to OCP 4.18
 
 # Nested Containers in OpenShift Dev Spaces - OCP 4.18 Tech Preview
 
@@ -19,7 +19,7 @@ __Note:__ There are three things that you must take into consideration before pr
 
 Now, that we have that out of the way here are the changes that you need to apply to your cluster:
 
-1. Enable the feature gates for `UserNamespacesSupport` and `ProcMountType`
+1. Enable the feature gates for `UserNamespacesSupport`, `ProcMountType`, and `UserNamespacesPodSecurityStandards`
 
    ```bash
    oc patch FeatureGate cluster --type merge --patch '{"spec":{"featureSet":"CustomNoUpgrade","customNoUpgrade":{"enabled":["ProcMountType","UserNamespacesSupport","UserNamespacesPodSecurityStandards"]}}}'
