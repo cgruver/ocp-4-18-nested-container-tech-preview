@@ -101,7 +101,7 @@ Now, that we have that out of the way here are the changes that you need to appl
        metrics:                
          enable: true
        pluginRegistry:
-         openVSXURL: https://open-vsx.
+         openVSXURL: https://open-vsx.org
        devfileRegistry:
          disableInternalRegistry: true 
      containerRegistry: {}      
