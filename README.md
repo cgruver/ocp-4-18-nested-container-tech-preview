@@ -170,4 +170,7 @@ Now, that we have that out of the way here are the changes that you need to appl
    podman kill webserver
    ```
 
+1. If you are paying attention to the processes on the compute node where your workspace pod is scheduled, you will note that while your processes in the workspace are running with UID 1000, on the compute node they are running as some really big UID.  That's user namespaces at work!
+
+
 Now, go have fun with podman in OpenShift Dev Spaces...

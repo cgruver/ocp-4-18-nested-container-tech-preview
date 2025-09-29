@@ -20,3 +20,7 @@ components:
         procMount: Unmasked
   container: 
     image: quay.io/cgruver0/che/ocp-4-17-userns-tp:latest
+    memoryRequest: 1Gi
+    memoryLimit: 8Gi
+    cpuRequest: 100m
+    cpuLimit: "2"
